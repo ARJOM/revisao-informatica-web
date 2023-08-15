@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Exemplo</h1>
+    <form action="#" method="post">
+        <label for="text-input">Texto:</label>
+        <input type="text" id="text-input" name="text_input" required><br>
+        
+        <label for="email-input">Email:</label>
+        <input type="email" id="email-input" name="email_input" required><br>
+        
+        <label for="password-input">Senha:</label>
+        <input type="password" id="password-input" name="password_input" required><br>
+        
+        <label for="number-input">Número:</label>
+        <input type="number" id="number-input" name="number_input" min="0" max="100" step="1" required><br>
+        
+        <label for="date-input">Data:</label>
+        <input type="date" id="date-input" name="date_input" required><br>
+        
+        <label for="checkbox-input">Checkbox:</label>
+        <input type="checkbox" id="checkbox-input" name="checkbox_input"><br>
+        
+        <label>Gênero:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Masculino</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Feminino</label><br>
+        
+        <label for="select-input">Escolha uma opção:</label>
+        <select id="select-input" name="select_input">
+            <option value="option1">Opção 1</option>
+            <option value="option2">Opção 2</option>
+            <option value="option3">Opção 3</option>
+        </select><br>
+        
+        <label for="textarea-input">Área de Texto:</label><br>
+        <textarea id="textarea-input" name="textarea_input" rows="4" cols="50"></textarea><br>
+        
+        <label for="file-input">Upload de Arquivo:</label>
+        <input type="file" id="file-input" name="file_input"><br>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
